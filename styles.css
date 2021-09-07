@@ -4,10 +4,11 @@
 }
 
 .container1{
-  height: 1000px;
+  height: 36vw;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  overflow: hidden;
 }
 
 .container2{
@@ -15,6 +16,7 @@
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  overflow: hidden;
 }
 
 .center {
@@ -24,7 +26,6 @@
 
 body{
   background-color: #ffffff
-  /*background-image: linear-gradient(to right, #1A2980 , #26D0CE);*/
 }
 
 #bgcolor {
@@ -33,7 +34,7 @@ body{
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Hero-Image.jpg");
-  height: 80%;
+  height: 35vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,31 +47,22 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
-
-.header{
-    width: 100%;
-    padding-bottom: 10px;
-    align-items: center;
-    text-align: center;
-    border-radius:10px;
 }
 
 .footer{
-    position: bottom;
+    background-color: #c7c7c7;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 100%;
     left: 0;
-    bottom: 10;
     color: white;
 }
 
 .button1 {
   background-image: url("Images/1.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -85,8 +77,8 @@ body{
 .button2 {
   background-image: url("Images/2.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -101,8 +93,8 @@ body{
 .button3 {
   background-image: url("Images/3.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -117,8 +109,8 @@ body{
 .button4 {
   background-image: url("Images/4.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -133,8 +125,8 @@ body{
 .button5 {
   background-image: url("Images/5.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -149,8 +141,8 @@ body{
 .button6 {
   background-image: url("Images/6.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -165,8 +157,8 @@ body{
 .button7 {
   background-image: url("Images/7.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -181,8 +173,8 @@ body{
 .button8 {
   background-image: url("Images/8.jpg");
   background-size:cover;
-  height: 100%;
-  width: 450px;
+  height: 35vw;
+  width: 100%;
   color: transparent;
   border-style: none;
   border-radius:10px;
@@ -197,18 +189,19 @@ body{
 h1 {
     font-family: 'Karla', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 95;
+    font-size: 4vw;
   }
 
 h2 {
     font-family: 'Karla', sans-serif;
     color: white;
+    font-size: 1vw;
   }
 
 h3 {
     font-family: 'Karla', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 25;
+    font-size: 1vw;
   }
 
 h4 {
@@ -220,10 +213,10 @@ h4 {
     margin: 5px;
     width: 450px;
     height: 800px;
+    padding-bottom: 4vw;
   }
 
   div.gallery img {
     width: 100%;
     height: auto;
-
   }
